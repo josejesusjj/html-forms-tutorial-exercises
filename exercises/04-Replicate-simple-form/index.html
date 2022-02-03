@@ -9,7 +9,7 @@
 		<form>
 			<!-- your code here -->
 			<table class="default" style="border: 1px, solid, black">
-				<tr style="border: black; background: blueviolet">
+				<tr style="border: black; background: rgb(218, 188, 246); text-align: center">
 					<td>Name</td>
 
 					<td>Value</td>
@@ -21,18 +21,45 @@
 				</tr>
 				<tr>
 					<td>Sex</td>
-					<td>seleccionable</td>
+					<td>
+						<input type="radio" id="Male" name="sex" value="Male" />
+						<label for="Male">Male</label><br />
+						<input type="radio" id="Female" name="sex" value="Female" />
+						<label for="Female">Female</label><br />
+					</td>
 				</tr>
 				<tr>
-					<td>Eyecolor</td>
-					<td>desplegable</td>
+					<td>Eye color</td>
+					<td>
+						<select>
+							<option>green</option>
+							<option>blue</option>
+							<option>black</option>
+						</select>
+					</td>
 				</tr>
 				<tr>
 					<td>Check all that apply</td>
-					<td>casilla de verificacion</td>
+					<td>
+						<input type="checkbox" id="Male" name="sex" value="Male" />
+						<label for="Male">Over 6 feet tall</label><br />
+						<input type="checkbox" id="Female" name="sex" value="Female" />
+						<label for="Female">Over 200 pounds</label><br />
+					</td>
 				</tr>
-				<td>Describe your athletic ability:"Cuadro de input"</td>
-				<td><button>Enter my information</button></td>
+
+				<tr>
+					<td>
+						<p>Describe your athletic ability:</p>
+						<input type="text" />
+					</td>
+				</tr>
+
+				<tr style="text-align: center">
+					<td style="text-align: center; width: auto">
+						<button>Enter my information</button>
+					</td>
+				</tr>
 			</table>
 		</form>
 	</body>
