@@ -1,0 +1,31 @@
+body {
+	background-color: #072657;
+	font-family: Helvetica, Arial, sans-serif;
+}
+.login {
+	margin-top: 150px;
+	text-align: center;
+	color: #ffffff;
+}
+input {
+	background-color: #051a3d;
+	display: block;
+	margin: auto;
+	padding: 10px;
+	border-radius: 5px;
+	border-color: black;
+	width: 280px;
+	margin-top: 10px;
+}
+button {
+	background-color: #4874d7;
+	display: block;
+	margin: auto;
+	padding: 10px;
+	border-radius: 5px;
+	border-top-color: rgb(112, 167, 255);
+	width: 300px;
+	margin-top: 10px;
+	color: white;
+	font-weight: bold;
+}
